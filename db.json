@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "demo@framevault.test",
+      "password": "demo",
+      "name": "Demo Photographer"
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "title": "Summer Wedding 2024",
+      "date": "2024-06-15",
+      "coverUrl": "https://picsum.photos/400/300?random=1"
+    },
+    {
+      "id": "2",
+      "title": "Corporate Retreat",
+      "date": "2024-09-10",
+      "coverUrl": "https://picsum.photos/400/300?random=2"
+    },
+    {
+      "id": "4fb6",
+      "title": "portfolio",
+      "date": "2005-06-28",
+      "coverUrl": "https://picsum.photos/400/300?random=1764777277895"
+    }
+  ],
+  "photos": [
+    {
+      "id": "101",
+      "albumId": "1",
+      "url": "https://picsum.photos/800/600?random=101",
+      "dateAdded": "2024-06-16T10:00:00Z"
+    },
+    {
+      "id": "102",
+      "albumId": "1",
+      "url": "https://picsum.photos/800/600?random=102",
+      "dateAdded": "2024-06-16T10:05:00Z"
+    },
+    {
+      "id": "103",
+      "albumId": "2",
+      "url": "https://picsum.photos/800/600?random=103",
+      "dateAdded": "2024-09-11T09:30:00Z"
+    },
+    {
+      "id": "f6bf",
+      "albumId": "4fb6",
+      "url": "blob:http://localhost:3000/881b77e5-9a35-4344-a210-e25683e38c86",
+      "dateAdded": "2025-12-03T15:54:53.321Z"
+    },
+    {
+      "id": "af27",
+      "albumId": "4fb6",
+      "url": "blob:http://localhost:3000/7c95ee14-4220-4c52-bfba-26fda9166de7",
+      "dateAdded": "2025-12-03T15:55:00.712Z"
+    }
+  ],
+  "shares": [
+    {
+      "id": "ec72",
+      "albumId": "4fb6",
+      "token": "krh35tfw6kc"
+    }
+  ]
+}
